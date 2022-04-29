@@ -1,0 +1,32 @@
+/* Обычный */
+@font-face {
+  font-family: "Russia";
+  src: url(./assets/fonts/russia.ttf);
+}
+
+/* Жирный */
+@font-face {
+  font-family: "Russia";
+  font-weight: bold;
+  src: url(./assets/fonts/russia_bold.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: "Russia", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #3464E0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 60px;
+  padding-right: 45px;
+}
