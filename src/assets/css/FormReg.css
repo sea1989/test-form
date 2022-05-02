@@ -1,0 +1,27 @@
+.form-registration {
+    width: 820px;
+    padding: 0px;
+}
+
+.shadow-dooble-registration {
+    width: 836px;
+}
+
+.shadow-registration {
+    width: 860px;
+}
+
+@media (max-width: 1024px) {
+    .form-registration {
+        width: 358px;
+        padding: 0px;
+    }
+
+    .shadow-dooble-registration {
+        width: 376px;
+    }
+
+    .shadow-registration {
+        width: 400px;
+    }
+  }

@@ -1,7 +1,6 @@
 import React from "react";
-import "./style.css";
-import logo from "../../assets/logo.svg";
-import login from "../../assets/login.svg";
+import logo from "../assets/logo.svg";
+import login from "../assets/login.svg";
 
 export default function Header() {
     return (

@@ -45,13 +45,6 @@
 .form {
     display: flex;
     flex-direction: column;
-    width: 358px;
-    padding: 0 36px;
-}
-
-.form-registration {
-    width: 820px;
-    padding: 0px;
 }
 
 .form label {
@@ -133,6 +126,8 @@ label span {
 .input-wrapper-row {
     display: flex;
     gap: 31px;
+
+    flex-wrap: wrap;
 }
 
 .input-row {
@@ -227,17 +222,10 @@ label span {
 }
 
 .shadow--dooble {
-    width: 460px;
-    left: 14px;
+    width: 450px;
+    left: 20px;
 
     top: -36px;
     z-index: -2;
 }
 
-.shadow-dooble-registration {
-    width: 855px;
-}
-
-.shadow-registration {
-    width: 865px;
-}

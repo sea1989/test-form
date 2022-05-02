@@ -1,14 +1,20 @@
+@import url("Main.css");
+@import url("Header.css");
+@import url("Auth.css");
+@import url("FormReg.css");
+@import url("FormAuth.css");
+
 /* Обычный */
 @font-face {
   font-family: "Russia";
-  src: url(./assets/fonts/russia.ttf);
+  src: url(../fonts/russia.ttf);
 }
 
 /* Жирный */
 @font-face {
   font-family: "Russia";
   font-weight: bold;
-  src: url(./assets/fonts/russia_bold.ttf);
+  src: url(../fonts/russia_bold.ttf);
 }
 
 body {
@@ -18,7 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #3464E0;
+  background-color: #3464e0;
 }
 
 code {
@@ -29,4 +35,6 @@ code {
   max-width: 1440px;
   padding-left: 60px;
   padding-right: 45px;
+
+  margin: 0 auto;
 }

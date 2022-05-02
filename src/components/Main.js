@@ -1,7 +1,6 @@
 import React from "react";
-import Auth from '../Auth';
-import Header from "../Header";
-import "./style.css";
+import Auth from './Auth';
+import Header from "./Header";
 
 export default function Main() {
   return (
